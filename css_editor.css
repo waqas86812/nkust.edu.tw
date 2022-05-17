@@ -1,0 +1,274 @@
+body {
+	margin: 0px auto; 
+	padding: 0px; 
+}
+form {
+	margin: 0px; 
+}
+a:link {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+a:visited {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+a:active {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+a:hover {
+	text-decoration: underline; 
+}
+#container {
+	margin: 0px auto; 
+	border: 1px solid rgb(0, 0, 0); 
+	width: 1000px; 
+	height: auto; 
+	float: left; 
+	background-color: transparent; 
+}
+#header {
+	background: url("./header.png") center center; 
+	height: 255px; 
+	text-align: center; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-left-width: 1px; 
+}
+#flashDiv {
+	margin: 0px; 
+	left: 0px; 
+	width: 100%; 
+}
+#webName {
+	font: bold 0px Verdana, sans-serif; 
+	padding: 12px 0px 3px 16px; 
+	left: 355px; 
+	text-align: left; 
+	color: rgb(0, 0, 0); 
+}
+#webName a {
+	color: rgb(0, 0, 0); 
+}
+#webTitle {
+	font: 0px Verdana, Arial, Helvetica, sans-serif; 
+	left: 355px; 
+	text-align: left; 
+	color: rgb(105, 105, 105); 
+	padding-top: 6px; 
+	padding-left: 50px; 
+}
+#menu {
+	text-align: right; 
+}
+#menu li {
+	display: inline; 
+}
+#main {
+	background: 0% 50% rgb(255, 255, 255); 
+	height: auto; 
+	min-height: 500px; 
+}
+#sidenav {
+	background-position: left top; 
+	width: 202px; 
+	height: auto; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=sidenav"); 
+	padding-top: 6px; 
+	background-repeat: repeat-y; 
+	min-height: 495px; 
+	float: left; 
+	background-color: rgb(178, 178, 145); 
+}
+#sidenav2 {
+	background-position: left top; 
+	width: 202px; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=sidenav"); 
+	padding-top: 6px; 
+	background-repeat: repeat-y; 
+	min-height: 495px; 
+	float: left; 
+	background-color: rgb(178, 178, 145); 
+}
+.sideArea {
+	font: 12px Verdana, sans-serif; 
+	margin: 0px auto; 
+	width: 98%; 
+	text-align: center; 
+	background-color: transparent; 
+}
+.sideAreaHeader {
+	background-position: center 50%; 
+	border-width: 1px; 
+	border-color: rgb(202, 139, 13); 
+	margin: 0px auto; 
+	width: 90%; 
+	height: 28px; 
+	text-align: center; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=sideAreaHeader"); 
+	line-height: 28px; 
+	font-size: 12px; 
+	font-weight: bold; 
+	vertical-align: middle; 
+	overflow-y: hidden; 
+	background-color: transparent; 
+}
+.sideAreaContent {
+	border-width: 1px; 
+	border-color: rgb(245, 193, 57); 
+	margin: 0px auto; 
+	width: 90%; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=sideAreaContent"); 
+	background-color: rgb(255, 255, 255); 
+}
+.sideAreaFooter {
+	background-position: left top; 
+	margin: 0px auto; 
+	width: 90%; 
+	height: 18px; 
+	text-align: center; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=sideAreaFooter"); 
+	color: rgb(0, 0, 0); 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+	background-repeat: no-repeat; 
+	background-color: transparent; 
+}
+#content {
+	padding: 12px; 
+	width: 552px; 
+	height: auto; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=content"); 
+	min-height: 495px; 
+	float: left; 
+	background-color: rgb(244, 245, 246); 
+}
+.block {
+	padding: 5px; 
+}
+.blockHeader {
+	background-position: center 50%; 
+	border-width: 1px; 
+	border-color: rgb(202, 139, 13); 
+	margin: 0px auto; 
+	height: 40px; 
+	text-align: center; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=blockHeader"); 
+	color: rgb(255, 255, 255); 
+	line-height: 50px; 
+	padding-left: 4px; 
+	font-size: 12px; 
+	font-weight: bolder; 
+	background-repeat: no-repeat; 
+	overflow-y: hidden; 
+	background-color: transparent; 
+}
+.itemInformation {
+	margin: 0px; 
+	border: 1px solid rgb(238, 238, 238); 
+	width: 99%; 
+	height: 0px; 
+	text-align: right; 
+	color: rgb(31, 86, 201); 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+}
+#itemInformation ul {
+	margin: 5px 0px; 
+}
+#itemInformation ul li {
+	display: inline; 
+}
+.itemContent {
+	border-width: 1px; 
+	font: 12px Arial, Helvetica, sans-serif; 
+	margin: 0px auto 5px; 
+	color: rgb(0, 0, 0); 
+	background-repeat: no-repeat; 
+	background-color: transparent; 
+}
+.blockFooter {
+	font: 14px Verdana, sans-serif; 
+	margin: 0px auto 8px; 
+	height: 32px; 
+	text-align: center; 
+	background-image: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=blockFooter"); 
+	color: rgb(0, 0, 0); 
+	background-color: rgb(244, 245, 246); 
+}
+#footer {
+	background: url("./main.php?mod=css_editor&func=get_image&site_id=0&theme_id=5&css_id=footer") 0% 50% rgb(223, 214, 179); 
+	margin: 0px auto; 
+	height: 40px; 
+	text-align: center; 
+	color: rgb(0, 0, 0); 
+	line-height: 40px; 
+	clear: both; 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+	vertical-align: middle; 
+	min-height: 20px; 
+}
+#footer a {
+	color: rgb(0, 0, 0); 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+}
+#menuDiv a {
+	color: rgb(0, 36, 255); 
+}
+#menuDiv a:hover {
+	color: rgb(255, 0, 92); 
+	text-decoration: underline; 
+}
+#menuDiv {
+	background-position: left top; 
+	font-size: 14px; 
+	font-style: normal; 
+	font-weight: bold; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-color: rgb(255, 255, 231); 
+}
+#webName a:hover {
+	color: rgb(105, 105, 105); 
+}
+#webTitle a {
+}
+#menuDiv2 {
+	background-position: left center; 
+	background-size: initial; 
+	background-repeat: no-repeat; 
+	background-attachment: initial; 
+	background-origin: initial; 
+	background-clip: initial; 
+	background-color: initial; 
+	width: 100%; 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+}
+#menuDiv2 a {
+	color: rgb(0, 0, 0); 
+}
+#menuDiv2 a:hover {
+	color: rgb(141, 72, 0); 
+	text-decoration: underline; 
+}
+#footer a:link {
+	color: rgb(0, 0, 0); 
+}
+#footer a:visited {
+	color: rgb(0, 0, 0); 
+}
+#footer a:active {
+	color: rgb(0, 0, 0); 
+}
+#footer a:hover {
+	color: rgb(255, 255, 255); 
+}

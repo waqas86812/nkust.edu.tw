@@ -1,0 +1,1073 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+<title>殷儷容教師網站</title>
+
+<link rel="stylesheet" type="text/css" href="./css_editor.css" />
+<link rel="stylesheet" type="text/css" href="./widget&func.css" />
+<link rel="stylesheet" type="text/css" href="./link_manager&func=get_menu_style&site.css" />
+<link rel="stylesheet" type="text/css" href="./link_cooljs_menu&func=get_cj_menu_style&site.css" />
+
+<style type="text/css">
+<!--
+	.pagejump {
+		text-align: center;
+		font-size: 11px;
+	}	
+	.styleTable {
+		border: 1px solid #7D7D7D;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.styleTable th {	
+		background-color :#EAE8E9;
+		border: 1px solid #7D7D7D;
+		font-size: 11pt;
+		height: 30px;
+	}
+	.styleTable td {
+		background-color :#FFFFFF;
+		border: 1px solid #7D7D7D;		
+		font-size: 9pt;
+		height: 25px;
+	}
+
+	.styleTable .chkboxField {
+		background-color: #F5F5F5;
+		border: 1px solid #7D7D7D;		
+		font-size: 9pt;
+		width: 5%;
+		text-align: center;
+	}
+
+	.styleTable .tableTitle{
+		background-color: #F5F5F5;
+		border: 1px solid #7D7D7D;
+		font-size: 9pt;
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.styleTable .tableFoot {
+		border: 1px solid #F5F5F5;
+		background-color: #F5F3F4;
+		text-align: left;
+	}
+
+	input.button {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color:  #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.updateButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color: #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.editButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color: #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.delButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color: #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.newButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color:  #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.viewButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color:  #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.searchButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color: #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.backButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color:  #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	input.resetButton {
+		padding-left: 11px;
+		margin-right: 10px;
+		text-align: center;
+		border: 0;
+		background: transparent url('./themes/default/images/button_r.gif') no-repeat;
+		color:  #000000;
+		height: 22px;
+		/* used to catch the buttonEnding */
+		position: relative;
+		cursor: pointer;
+	}
+
+	.buttonEnding {
+		position: absolute;
+		display: inline;
+		margin-left: -10px;
+		width: 7px;
+		height: 22px;
+		background: url('./themes/default/images/end.gif') no-repeat;
+	}
+
+	#main { overflow: hidden; }
+	
+	/* for Internet Explorer */
+	/*\*/
+	* html #main { height:20px; overflow: visible;}
+	/**/
+	
+	/*\*/
+	* html #sidenav { height:20px; overflow: visible;}
+	/**/
+	
+	/*\*/
+	* html #sidenav2 { height:20px; overflow: visible;}
+	/**/
+	
+	#content{ float:left; margin-bottom:-10000px; padding-bottom: 10000px; }	
+	#sidenav{ float:left; margin-bottom:-10000px; padding-bottom: 10000px;}	
+	#sidenav2{ float:left; margin-bottom:-10000px; padding-bottom: 10000px; }	
+	
+	/*避免IE 6選單被SELECT物件覆蓋*/
+	.select-free
+	{
+		position:absolute;
+		z-index:10;/*any value*/
+		overflow:hidden;/*must have*/
+		width:33em;/*must have for any value*/;
+	}
+	.select-free iframe
+	{
+		display:none;/*sorry for IE5*/
+		display/**/:block;/*sorry for IE5*/
+		position:absolute;/*must have*/
+		top:0;/*must have*/
+		left:0;/*must have*/
+		z-index:-1;/*must have*/
+		filter:mask();/*must have*/
+		width:3000px;/*must have for any big value*/
+		height:3000px/*must have for any big value*/;
+	}
+
+	.select-free .bd{border:solid 1px #aaaaaa;padding:12px;}
+-->
+</style>
+
+<!-- <script type="text/javascript" src="./script/common.js"></script> -->
+<!--
+will cause <marquee> not work in firefox
+use <marquee> tag instead
+<script type="text/javascript" src="./script/vmarquee.js"></script>
+-->
+
+<!-- force IE 6 cache CSS background image -->
+<script type="text/javascript"> try {document.execCommand("BackgroundImageCache", false, true); } catch(err){}</script>
+<script type="text/javascript" src="./script/swfobject.js"></script>
+<script type="text/javascript" src="./script/dojo/dojo.js"></script>
+<script type="text/javascript" src="./script/trim.js"></script>
+<script type="text/javascript" src="./script/loadflash.js"></script>
+<script type="text/javascript" src="./script/rounded_button.js"></script>
+<script type="text/javascript" src="./modules/link_manager/script/menu.js"></script>
+<script type="text/javascript" src="./main.php?mod=link_manager&func=get_menu_setting&site_id=126"></script>
+<script type="text/javascript" src="./main.php?mod=link_manager&func=get_menu_data&site_id=126"></script>
+
+<script type="text/javascript" src="./modules/link_cooljs_menu/script/coolmenu.js"></script>
+<script type="text/javascript" src="./modules/link_cooljs_menu/script/coolmenupro_tight_compression.js"></script>
+<script type="text/javascript" src="./modules/link_cooljs_menu/script/coolmenupro_uncompressed.js"></script>
+
+<script type="text/javascript" src="./main.php?mod=link_cooljs_menu&func=get_cj_menu&site_id=126"></script>
+<script type="text/javascript" src="./main.php?mod=link_cooljs_menu&func=get_cj_menu_data&site_id=126"></script></head>
+
+<body> 
+<div id="container">
+	<div id="header">
+	<a accesskey="U" href="#" onFocus="hideAll();" >:::</a>
+		<div id="flashDiv"></div>
+		<div id="menu"></div>
+			<div id="webName">
+			<!--<a accesskey="U" href="main.php?mod=accessibility" onFocus="hideAll();" >:::</a>-->
+			<a href="#">殷儷容教師網站</a>
+			<div id="webTitle"></div>
+			</div>
+	</div>
+	<div id="main">
+		<div id="sidenav">
+						<a accesskey="L" href="#" onFocus="hideAll();" >:::</a>
+									<div class="sideArea">
+						<div class="sideAreaHeader link_manager_0">節點選單</div>
+						<div class="sideAreaContent"><script type="text/javascript" src="./modules/link_manager/script/SpryMenuBar.js"></script>
+<link type="text/css" href="./main.php?mod=link_manager&func=get_vertical_menu_style&site_id=126" rel="stylesheet" />
+			<ul id="MenuBar" class="MenuBarVertical"><li><a href="http://www.nkmu.edu.tw/" target="_blank">國立高雄科技大學</a></li><li><a href="http://www.seafood.nkmu.edu.tw/main.php" target="_blank">水產食品科學系</a></li></ul>
+	<script type="text/javascript">
+<!--
+	var MenuBar = new Spry.Widget.MenuBar("MenuBar", {imgRight:"./modules/link_manager/tmpl/images/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</div>
+						<div class="sideAreaFooter">　</div>
+					</div>
+									<div class="sideArea">
+						<div class="sideAreaHeader login_0">登入區塊</div>
+						<div class="sideAreaContent"><script type="text/javascript">
+<!--
+function chk_login_form() {
+	if (document.login_form.user_id.value=="")
+	{
+		alert('請輸入您的帳號');
+		return false;
+	}
+	else if (document.login_form.user_passwd.value=="")
+	{
+		alert('請輸入您的密碼');
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+//-->
+</script>
+<form name="login_form" method="post" action="./main.php?mod=login&func=do_login&site_id=126" onsubmit="javascript: return chk_login_form();">
+<table width="100%">
+	<tr>
+		<td width="30%">帳號</td>
+		<td width="70%"> 
+			<input type="text" name="user_id" style="width: 120px;" /> 
+		</td>
+	</tr>
+	<tr>
+		<td>密碼</td>
+		<td>
+			<input type="password" name="user_passwd" style="width: 120px;" /> 
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input class="button" alt="登入" type="submit" value="登入" />
+			<input class="button" alt="重設" type="reset" value="重設" />
+		</td>
+	</tr>
+</table> 
+</form></div>
+						<div class="sideAreaFooter">　</div>
+					</div>
+									</div>
+		<div id="content">
+		<a accesskey="C" href="#" onFocus="hideAll();" >:::</a>
+			<div style="width:100%; overflow: hidden;">
+				<div class="block">
+								<div class="blockHeader announce_57"> </div>
+		<div class="itemContent"><script type="text/javascript">
+		function announce_toggle(divid,id,dateDivId)
+		{
+			annart_div = document.getElementById(divid);
+			annart_date_div = document.getElementById(dateDivId);
+			if( !annart_div ) return;
+			if( annart_div.style.display == "block" ) {
+				annart_date_div.style.display = "block";
+				annart_div.style.display = "none";
+				document.getElementById('images'+id).src = "./modules/announce/tmpl/images/open.gif";
+			}
+			else
+			{
+				annart_date_div.style.display = "none";
+				annart_div.style.display = "block";
+				document.getElementById('images'+id).src = "./modules/announce/tmpl/images/close.gif";
+			}
+			//<img src="./modules/announce/tmpl/images/open.gif" style="border: 0px; width: 12px; height: 12px" id="images" alt="open">
+		}
+		function show_link(annart_id)
+		{
+			var show_link = 'main.php?mod=announce&func=show_article&site_id=126&annart_id='+annart_id;
+			window.location = show_link;
+		}
+</script>
+<div  class="itemContent" style="font-size:12px;font-weight:100;color:#010100;background-color:#FCFCF5;border-style:none;border-width:px;a{color:#010100}">
+<table style="width: 100%; text-align: ">
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce989','989','annart_date989')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=989&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images989" alt="item">
+								「新穎益生菌發酵技術之應用」為題，已刊登於305期食品資訊雙月刊！
+							</a>		
+																		
+							
+									<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=989&file_id=126">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="附加檔案" alt="下載檔案">
+					</a> &nbsp;
+								
+									<a href="http://www.foodnews.com.tw/publish-1.asp" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date989" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce989" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px">「新穎益生菌發酵技術之應用」為題，已刊登於305期食品資訊雙月刊！(http://www.foodnews.com.tw/publish-1.asp)。敬請參閱指教！</p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce987','987','annart_date987')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=987&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images987" alt="item">
+								青玄POWER~榮獲 110 年度教育部新農業「生醫產業與新農業創新創業初階競賽」第一名佳績~
+							</a>		
+																		
+							
+									<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=987&file_id=125">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="附加檔案" alt="下載檔案">
+					</a> &nbsp;
+								
+								
+				</div>
+				<div id="annart_date987" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce987" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px"></p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce986','986','annart_date986')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=986&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images986" alt="item">
+								恭喜陳品筑同學，榮獲教育部 2021 全國技專校院專題製作競賽~家政餐旅食品群~第二名，獎金 2 萬元、獎盃一座、獎狀一紙！
+							</a>		
+																		
+							
+									<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=986&file_id=123">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="附加檔案" alt="下載檔案">
+					</a> &nbsp;
+								
+									<a href="https://rnd.ntut.edu.tw/p/406-1042-109931,r1649.php?Lang=zh-tw" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date986" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce986" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px">陳品筑同學，榮獲教育部 2021 全國技專校院專題製作競賽~家政餐旅食品群~第二名，獎金 2 萬元、獎盃一座、獎狀一紙！因疫情取消現場決賽，改以錄製5分鐘影片供委員審查，獲得肯定！我們會繼續加油的！<br />
+請參閱官網：https://rnd.ntut.edu.tw/p/406-1042-109931,r1649.php?Lang=zh-tw</p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce978','978','annart_date978')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=978&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images978" alt="item">
+								恭賀~殷儷容老師榮獲 台灣食品科學技術學會 第50次會員大會 "食品科技研發榮譽獎"！
+							</a>		
+																		
+							
+									<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=978&file_id=121">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="附加檔案" alt="下載檔案">
+					</a> &nbsp;
+								
+									<a href="https://www.food.org.tw/TW/NewsDetail.aspx?NewsID=pBODw1LWS20%3d" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date978" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce978" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px">台灣食品科學技術學會第50次會員大會，於109年12月4日(五)上午9點在國立屏東科技大學綜合大樓演藝廳舉行(屏東縣內埔鄉學府路1號)。</p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce977','977','annart_date977')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=977&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images977" alt="item">
+								1091025魚麴鈣紅醬水產養生創意料理觀摩交流會~高科大水食系工廠3樓會議室
+							</a>		
+																		
+							
+									<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=977&file_id=120">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="附加檔案" alt="下載檔案">
+					</a> &nbsp;
+								
+									<a href="https://www.facebook.com/ljyin/posts/3992537940760414?notif_id=1602544971075835&notif_t=feedback_reaction_generic&ref=notif" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date977" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce977" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px">~報名連結 (https://forms.gle/LzrmVmtzEMwPitwPA) ！~<br />
+" 近期會再公布當天美食饗宴菜單，敬請期待！<br />
+活動主題：魚麴鈣紅醬水產養生創意料理觀摩交流會<br />
+時       間：2020 年 10 月 25 日 (星期日)<br />
+地       點：國立高雄科技大學水產食品科學系實習工廠3樓會議室<br />
+主辦單位：國立高雄科技大學水產食品科學系</p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce968','968','annart_date968')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=968&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images968" alt="item">
+								恭賀~殷儷容老師榮獲科技部 109 年度鼓勵女性從事科學及技術研究專案計畫補助一件
+							</a>		
+																		
+							
+								
+								
+				</div>
+				<div id="annart_date968" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce968" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px"></p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce934','934','annart_date934')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=934&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images934" alt="item">
+								諾活麗系列產品-榮獲教育部 2019生醫產業與新農業創新創業競賽 ~佳作與最佳人氣獎。
+							</a>		
+																		
+							
+								
+									<a href="https://www.gbimonthly.com/2019/12/58874/" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+									<a href="http://www.seafood.nkmu.edu.tw/main.php?mod=custom_page&func=show_page&site_id=126&page_id=834 " target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+									<a href="https://www.facebook.com/新酵能生技有限公司-338574353758930/?eid=ARDoYwmCltuLxuijYAd9NaC_fuBln4J9Ta9th62xThLmltfSAGRgBeNjI3gbSaE2nhJtCRkfIsBOpaXC " target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date934" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce934" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px">新酵能生技股份有限公司~<br />
+榮獲108年教育部生醫產業與新農業創新創業人才培育計畫之初、進階競賽皆獲得第二名佳績。</p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div style="border: 0px;" >
+				<div style="float:left;">
+						<p style="text-indent: -18px; margin-left: 18px ; margin-top: 0px; margin-bottom: 0px">
+													<a href="javascript:announce_toggle('annart_announce898','898','annart_date898')" >
+								<noscript><a href="main.php?mod=announce&func=show_article&annart_id=898&site_id=126 " ></noscript>
+								<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images898" alt="item">
+								恭賀~殷儷容老師榮獲國立高雄科技大學 106 學年度~優良教師~殊榮
+							</a>		
+																		
+							
+								
+									<a href="http://www.seafood.nkmu.edu.tw/main.php?mod=custom_page&func=show_page&site_id=126&page_id=827" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+									<a href="http://trc.nkmu.edu.tw/files/14-1000-941,r27-1.php" target="_new">
+					<img style="border: 0px" src="./modules/announce/tmpl/images/ie.jpg" width="16" height="16" alt="相關連結">
+				</a>
+								
+				</div>
+				<div id="annart_date898" style="float:right;">
+								
+				</div>
+			</div>
+			
+	
+			<div id="annart_announce898" style="display:none;" >
+				<div style="text-align: right"></div><br>
+				<p style="margin-left: 20px"></p>
+				<br />
+				<div style="text-align:right;">
+					<p align="right">
+						發佈者:
+						<!-- 	�����ȮɱN annart_is_teacher �\�����					
+													教師-
+						 -->
+						殷儷容
+						(Li-Jung Yin)
+					</p>				
+				</div>
+			</div>
+		</td>
+	</tr>
+	</table>
+</div>
+<!--
+<div style="text-align: left; line-height: 10pt;">
+	<a href="main.php?mod=announce&func=show_rss&anncat_id=57&site_id=126"><img src="./modules/announce/tmpl/images/rss_icon_16x16.gif" border="0" style="vertical-align: bottom;" alt="RSS"> 訂閱 RSS</a>
+</div>
+-->
+<div style="text-align: right">
+		<a href="main.php?mod=announce&func=show_rss&anncat_id=57&site_id=126"><img src="./modules/announce/tmpl/images/rss_icon_16x16.gif" border="0" style="vertical-align: bottom;" alt="RSS"> 訂閱 RSS</a>
+			&nbsp;
+						<a href="main.php?mod=announce&func=show_all_announce&site_id=126&anncat_id=57&act=show_all">more..</a>
+			</div>
+
+
+<script type="text/javascript">//�P�_�O�_��javascript�Ӵ��Ϥ�
+	''
+		''
+			//alert('images'+'989');
+			document.getElementById('images'+'989').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'987');
+			document.getElementById('images'+'987').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'986');
+			document.getElementById('images'+'986').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'978');
+			document.getElementById('images'+'978').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'977');
+			document.getElementById('images'+'977').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'968');
+			document.getElementById('images'+'968').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'934');
+			document.getElementById('images'+'934').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+		''
+			//alert('images'+'898');
+			document.getElementById('images'+'898').src = "./modules/announce/tmpl/images/open.gif";
+		''
+	''
+</script></div>
+		<div class="blockFooter"></div>
+			<div class="blockHeader announce_60"> </div>
+		<div class="itemContent"><script type="text/javascript">
+
+		function show_link(annart_id)
+		{
+			var show_link = 'main.php?mod=announce&func=show_article&site_id=126&annart_id='+annart_id;
+			window.location = show_link;
+		}
+</script>
+<div class="itemContent"  style="font-size:12px;font-weight:100;color:#FF0000;background-color:#FFFFFF;border-style:none;border-width:px;a{color:#FF0000}">
+<table style="width: 100%; text-align: left">
+	<tr>
+		<td width = "100%">
+			<marquee scrollamount="2" behavior="scroll" direction="left" loop="true" style=" overflow = auto; width: 100%; height: 18px" onMouseOut="this.start()" onMouseOver="this.stop()" onblur="this.start()" onfocus="this.stop()" onLoad="this.start()">
+													<a href="javascript:show_link('879')" title="" />
+							<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images879" alt="item"><b>107年2月1日起併校更名為：國立高雄科技大學</b>
+												</a>
+							<!-- file and url  start-->
+													
+														
+														<!-- file and url  end-->
+						
+																	<a href="javascript:show_link('981')" title="" />
+							<img src="./modules/announce/tmpl/images/item.gif" style="border: 0px; width: 12px; height: 12px" id="images981" alt="item"><b>鈣酵能產品~榮獲 109 年度教育部新農業「生醫產業與新農業創新創業進階競賽」第三名佳績~</b>
+												</a>
+							<!-- file and url  start-->
+													
+															<a href="./main.php?mod=announce&func=do_open_file_new&annart_id=981&file_id=122">
+								<img style="border: 0px" src="./modules/announce/tmpl/images/afile.gif" width="16" height="16" alt="" alt="">
+								</a> &nbsp;
+														
+														<!-- file and url  end-->
+						
+										</marquee>
+		</td>
+	</tr>
+</table>
+</div>
+&nbsp;
+<div style="text-align: left; line-height: 10pt;">
+	</div></div>
+		<div class="blockFooter"></div>
+			<div class="blockHeader custom_page_649">自訂網頁</div>
+		<div class="itemContent">												<p><font face="新細明體" size="3"><br /></font></p><div align="center"><font face="新細明體" size="3">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體"> </font><table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse"><tbody><tr style="height: 14.2pt"><td width="83" style="background: #99ccff; padding: 0cm 5.4pt; border: 1pt dashed #bbbbbb; width: 62.1pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 10pt">姓名</span></p><font face="新細明體" size="3">   </font></td><td width="465" style="background: #99ccff; border-width: 1pt 1pt 1pt 0px; border-style: dashed dashed dashed none; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(187, 187, 187) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 348.6pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt 8.75pt"><span style="font-family: 新細明體, serif; font-size: 10pt">殷儷容</span><span style="font-family: Arial, sans-serif; font-size: 10pt">&nbsp; Li-Jung Yin</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 14.2pt"><td width="83" style="background: #99ccff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187); padding: 0cm 5.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 62.1pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 10pt">現職</span></p><font face="新細明體" size="3">   </font></td><td width="465" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187) rgb(0, 0, 0); padding: 0cm 5.4pt; width: 348.6pt; height: 14.2pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt 8.75pt"><span style="font-family: 新細明體, serif; font-size: 10pt">國立高雄科技大學水產食品科學系教授</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 14.2pt"><td width="83" style="background: #99ccff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187); padding: 0cm 5.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 62.1pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt"><span style="font-family: 'Times New Roman', serif; font-size: 10pt">E-mai</span><span style="font-family: Arial, sans-serif; font-size: 10pt">l</span></p><font face="新細明體" size="3">   </font></td><td width="465" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187) rgb(0, 0, 0); padding: 0cm 5.4pt; width: 348.6pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt 8.75pt"><span style="font-family: Arial, sans-serif; font-size: 10pt">ljyin@nkust.edu.tw</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 14.2pt"><td width="83" style="background: #99ccff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187); padding: 0cm 5.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 62.1pt; height: 14.2pt"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 10pt">聯絡電話</span></p><font face="新細明體" size="3">   </font></td><td width="465" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) rgb(187, 187, 187) rgb(187, 187, 187) rgb(0, 0, 0); padding: 0cm 5.4pt; width: 348.6pt; height: 14.2pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 0cm 0cm 0pt 8.75pt"><span style="font-family: Arial, sans-serif; font-size: 10pt">07-3617141 ext. 23608</span></p><font face="新細明體" size="3">   </font></td></tr></tbody></table><font face="新細明體" size="3">  </font></div><p><font face="新細明體" size="3"> <br /></font></p><div align="center"><font face="新細明體" size="3">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體"> </font><table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse"><tbody><tr style="height: 1pt; break-inside: avoid"><td colspan="3" width="551" style="background: #99ccff; padding: 0cm 1.4pt; border: 1pt dashed #bbbbbb; width: 412.9pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 0cm; text-align: center; text-indent: 9.05pt" align="center"><font size="3"><strong><span style="font-family: 新細明體, serif">&nbsp;</span></strong><strong><span style="font-family: 新細明體, serif">經<span>&nbsp;&nbsp; </span>歷</span></strong></font></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">　職　　稱</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">　　　　單　　　　　　　　　　　　　　　位</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.8pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 新細明體, serif; font-size: 9pt">起<span> &nbsp;</span>訖<span>   &nbsp;</span>年<span>&nbsp; </span>月</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">教授</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立高雄科技大學水產食品科學系</span><span style="font-family: 新細明體, serif"><font size="3"> </font></span><span style="font-family: 新細明體, serif; font-size: 9pt">(</span><span style="font-family: 新細明體, serif; font-size: 9pt">教字第○一八五六四號<span>)</span></span></p><font face="新細明體" size="3">   </font></td><td width="98" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2011.2.1~</span><span style="font-family: 新細明體, serif; font-size: 9pt">迄今</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">副教授</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立高雄科技大學水產食品科學系</span><span style="font-family: 新細明體, serif"><font size="3"> </font></span><span style="font-family: 新細明體, serif; font-size: 9pt">(</span><span style="font-family: 新細明體, serif; font-size: 9pt">副字第○三五七九四號<span>)</span></span></p><font face="新細明體" size="3">   </font></td><td width="98" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt"><span style="font-family: 新細明體, serif; font-size: 9pt">2007/08~2011/01</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">助理教授</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立高雄科技大學水產食品科學系</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2006/08~2007/08</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">助理教授</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">開南管理學院觀光與餐飲旅館學系</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2005/08~2006/08</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt"><span style="font-family: 新細明體, serif; font-size: 9pt">兼任助理教授</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">實踐大學食品營養與保健生技學系</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2005/08~2006/08</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt"><span style="font-family: 新細明體, serif; font-size: 9pt">助理教授兼課務組組長</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">中國海事商業專科學校食品科學科<span> (</span>助理字第○一○七四三號<span>)</span></span><span style="font-family: 新細明體, serif"><font size="3"> &nbsp; </font></span></p><font face="新細明體" size="3">   </font></td><td width="98" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2003/08~2005/08</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">兼任講師</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">中國海事商業專科學校食品科學科</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2000/08~2001/07</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="84" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 63.3pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">研發專員</span></p><font face="新細明體" size="3">   </font></td><td width="369" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 276.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">顥雲貿易股份有限公司</span></p><font face="新細明體" size="3">   </font></td><td width="98" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 73.2pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 5.65pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">1996/08~10</span></p><font face="新細明體" size="3">   </font></td></tr></tbody></table><font face="新細明體" size="3">  </font></div><p><font face="新細明體" size="3">  <br /></font></p><div align="center"><font face="新細明體" size="3">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體">  </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">   </font><font face="新細明體">  </font><font face="新細明體"> </font><table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse"><tbody><tr style="height: 1pt; break-inside: avoid"><td colspan="5" width="551" style="background: #99ccff; padding: 0cm 1.4pt; border: 1pt dashed #bbbbbb; width: 412.9pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 0cm; text-align: center; text-indent: 9.05pt" align="center"><font size="3"><strong><span style="font-family: 新細明體, serif">&nbsp;</span></strong><strong><span style="font-family: 新細明體, serif">學<span>&nbsp;&nbsp; </span>歷</span></strong></font></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="120" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 90.25pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: center" align="center"><span style="font-family: 新細明體, serif; font-size: 9pt">畢 ／ 肄 業 學 校</span></p><font face="新細明體" size="3">   </font></td><td width="104" valign="top" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 77.95pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: center" align="center"><span style="font-family: 新細明體, serif; font-size: 9pt">國<span>&nbsp;&nbsp;&nbsp;&nbsp;   </span>別</span></p><font face="新細明體" size="3">   </font></td><td width="142" valign="top" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 106.35pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: center" align="center"><span style="font-family: 新細明體, serif; font-size: 9pt">主 修 學 門 系 所</span></p><font face="新細明體" size="3">   </font></td><td width="47" valign="top" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 35.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: center" align="center"><span style="font-family: 新細明體, serif; font-size: 9pt">學 位</span></p><font face="新細明體" size="3">   </font></td><td width="137" valign="top" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 102.95pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: center" align="center"><span style="font-family: 新細明體, serif; font-size: 9pt">起<span> &nbsp;</span>訖<span> &nbsp;</span>年<span>&nbsp; </span>月</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="120" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 90.25pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立臺灣海洋大學</span></p><font face="新細明體" size="3">   </font></td><td width="104" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 77.95pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">中華民國</span></p><font face="新細明體" size="3">   </font></td><td width="142" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 106.35pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">&nbsp;</span><span style="font-family: 新細明體, serif; font-size: 9pt">食品科學系</span></p><font face="新細明體" size="3">   </font></td><td width="47" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 35.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">博士</span></p><font face="新細明體" size="3">   </font></td><td width="137" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 102.95pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 7.1pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">2000/8~2003/6</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="120" style="border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 90.25pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立臺灣海洋大學</span></p><font face="新細明體" size="3">   </font></td><td width="104" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 77.95pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">中華民國</span></p><font face="新細明體" size="3">   </font></td><td width="142" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 106.35pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">&nbsp;</span><span style="font-family: 新細明體, serif; font-size: 9pt">水產食品科學研究所</span></p><font face="新細明體" size="3">   </font></td><td width="47" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 35.4pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">碩士</span></p><font face="新細明體" size="3">   </font></td><td width="137" style="border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 102.95pt; height: 1pt; background-color: transparent"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 7.1pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">1994/8~1996/6</span></p><font face="新細明體" size="3">   </font></td></tr><tr style="height: 1pt; break-inside: avoid"><td width="120" style="background: #ccecff; border-width: 0px 1pt 1pt; border-style: none dashed dashed; border-color: #000000 windowtext windowtext; padding: 0cm 1.4pt; border-image-source: none; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; width: 90.25pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">國立臺灣海洋大學</span></p><font face="新細明體" size="3">   </font></td><td width="104" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 77.95pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">中華民國</span></p><font face="新細明體" size="3">   </font></td><td width="142" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 106.35pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">&nbsp;</span><span style="font-family: 新細明體, serif; font-size: 9pt">水產食品科學系</span></p><font face="新細明體" size="3">   </font></td><td width="47" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) black windowtext rgb(0, 0, 0); padding: 0cm 1.4pt; width: 35.4pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">學士</span></p><font face="新細明體" size="3">   </font></td><td width="137" style="background: #ccecff; border-width: 0px 1pt 1pt 0px; border-style: none dashed dashed none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0cm; width: 102.95pt; height: 1pt"><font face="新細明體" size="3">   </font><p style="margin: 2.85pt 2.85pt 2.85pt 7.1pt; text-align: justify"><span style="font-family: 新細明體, serif; font-size: 9pt">1990/8~1994/6</span></p><font face="新細明體" size="3">   </font></td></tr></tbody></table><font face="新細明體" size="3">  </font></div><p><font face="新細明體" size="3">  <br /></font></p> 		 		 		 		</div>
+		<div class="blockFooter"></div>
+	
+				</div>
+			</div>
+		</div>
+		<div id="sidenav2">
+						<a accesskey="R" href="#" onFocus="hideAll();" >:::</a>
+									<div class="sideArea">
+						<div class="sideAreaHeader counter_0">計數器</div>
+						<div class="sideAreaContent"><a href="#" title="210.61.176.105,
+
+">目前線上人數：1</a><br />總瀏覽人數：164025<br /></div>
+						<div class="sideAreaFooter">　</div>
+					</div>
+									<div class="sideArea">
+						<div class="sideAreaHeader album_player_0">花絮播放器</div>
+						<div class="sideAreaContent"><script type="text/javascript">
+/***********************************************
+* Ultimate Fade-In Slideshow (v1.5): c Dynamic Drive (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+ 
+var fadebgcolor="white"
+ 
+////NO need to edit beyond here/////////////
+ 
+var fadearray=new Array() //array to cache fadeshow instances
+var fadeclear=new Array() //array to cache corresponding clearinterval pointers
+ 
+var dom=(document.getElementById) //modern dom browsers
+var iebrowser=document.all
+ 
+function fadeshow(theimages, fadewidth, fadeheight, borderwidth, delay, pause, displayorder){
+this.pausecheck=pause
+this.mouseovercheck=0
+this.delay=delay
+this.degree=10 //initial opacity degree (10%)
+this.curimageindex=0
+this.nextimageindex=1
+fadearray[fadearray.length]=this
+this.slideshowid=fadearray.length-1
+this.canvasbase="canvas"+this.slideshowid
+this.curcanvas=this.canvasbase+"_0"
+if (typeof displayorder!="undefined")
+theimages.sort(function() {return 0.5 - Math.random();}) //thanks to Mike (aka Mwinter) :)
+this.theimages=theimages
+this.imageborder=parseInt(borderwidth)
+this.fadewidth = fadewidth
+this.fadeheight = fadeheight
+this.postimages=new Array() //preload images
+for (p=0;p<theimages.length;p++){
+this.postimages[p]=new Image()
+this.postimages[p].src=theimages[p][0]
+}
+ 
+var fadewidth=fadewidth+this.imageborder*2
+var fadeheight=fadeheight+this.imageborder*2
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers (ie: Firefox)
+document.write('<div id="master'+this.slideshowid+'" style="position:relative;width:'+fadewidth+'px;height:'+fadeheight+'px;overflow:hidden;"><div id="'+this.canvasbase+'_0" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);-moz-opacity:10;-khtml-opacity:10;background-color:'+fadebgcolor+'"></div><div id="'+this.canvasbase+'_1" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);-moz-opacity:10;background-color:'+fadebgcolor+'"></div></div>')
+else
+document.write('<div><img name="defaultslide'+this.slideshowid+'" src="'+this.postimages[0].src+'" width="'+fadewidth+'" height="'+fadeheight+'" alt="Image"></div>')
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers such as Firefox
+this.startit()
+else{
+this.curimageindex++
+setInterval("fadearray["+this.slideshowid+"].rotateimage()", this.delay)
+}
+}
+
+function fadepic(obj){
+if (obj.degree<100){
+obj.degree+=10
+if (obj.tempobj.filters&&obj.tempobj.filters[0]){
+if (typeof obj.tempobj.filters[0].opacity=="number") //if IE6+
+obj.tempobj.filters[0].opacity=obj.degree
+else //else if IE5.5-
+obj.tempobj.style.filter="alpha(opacity="+obj.degree+")"
+}
+else if (obj.tempobj.style.MozOpacity)
+obj.tempobj.style.MozOpacity=obj.degree/101
+else if (obj.tempobj.style.KhtmlOpacity)
+obj.tempobj.style.KhtmlOpacity=obj.degree/100
+}
+else{
+clearInterval(fadeclear[obj.slideshowid])
+obj.nextcanvas=(obj.curcanvas==obj.canvasbase+"_0")? obj.canvasbase+"_0" : obj.canvasbase+"_1"
+obj.tempobj=iebrowser? iebrowser[obj.nextcanvas] : document.getElementById(obj.nextcanvas)
+obj.populateslide(obj.tempobj, obj.nextimageindex)
+obj.nextimageindex=(obj.nextimageindex<obj.postimages.length-1)? obj.nextimageindex+1 : 0
+setTimeout("fadearray["+obj.slideshowid+"].rotateimage()", obj.delay)
+}
+}
+ 
+fadeshow.prototype.populateslide=function(picobj, picindex){
+var slideHTML=""
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML='<a href="'+this.theimages[picindex][1]+'" target="'+this.theimages[picindex][2]+'">'
+slideHTML+='<img src="'+this.postimages[picindex].src+'" border="'+this.imageborder+'px" width="'+this.fadewidth+'" height="'+this.fadeheight+'" alt="Image">'
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML+='</a>'
+picobj.innerHTML=slideHTML
+}
+ 
+ 
+fadeshow.prototype.rotateimage=function(){
+if (this.pausecheck==1) //if pause onMouseover enabled, cache object
+var cacheobj=this
+if (this.mouseovercheck==1)
+setTimeout(function(){cacheobj.rotateimage()}, 100)
+else if (iebrowser&&dom||dom){
+this.resetit()
+var crossobj=this.tempobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+crossobj.style.zIndex++
+fadeclear[this.slideshowid]=setInterval("fadepic(fadearray["+this.slideshowid+"])",50)
+this.curcanvas=(this.curcanvas==this.canvasbase+"_0")? this.canvasbase+"_1" : this.canvasbase+"_0"
+}
+else{
+var ns4imgobj=document.images['defaultslide'+this.slideshowid]
+ns4imgobj.src=this.postimages[this.curimageindex].src
+}
+this.curimageindex=(this.curimageindex<this.postimages.length-1)? this.curimageindex+1 : 0
+}
+ 
+fadeshow.prototype.resetit=function(){
+this.degree=10
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+if (crossobj.filters&&crossobj.filters[0]){
+if (typeof crossobj.filters[0].opacity=="number") //if IE6+
+crossobj.filters(0).opacity=this.degree
+else //else if IE5.5-
+crossobj.style.filter="alpha(opacity="+this.degree+")"
+}
+else if (crossobj.style.MozOpacity)
+crossobj.style.MozOpacity=this.degree/101
+else if (crossobj.style.KhtmlOpacity)
+crossobj.style.KhtmlOpacity=obj.degree/100
+}
+ 
+ 
+fadeshow.prototype.startit=function(){
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+this.populateslide(crossobj, this.curimageindex)
+if (this.pausecheck==1){ //IF SLIDESHOW SHOULD PAUSE ONMOUSEOVER
+var cacheobj=this
+var crossobjcontainer=iebrowser? iebrowser["master"+this.slideshowid] : document.getElementById("master"+this.slideshowid)
+crossobjcontainer.onmouseover=function(){cacheobj.mouseovercheck=1}
+crossobjcontainer.onmouseout=function(){cacheobj.mouseovercheck=0}
+}
+this.rotateimage()
+}
+
+function createImageArray(arg, arg2)
+{
+	var fadeimages= new Array();
+	var srcs = arg.split(";");
+	var urls = arg2.split(";");
+	for(var i=0; i<srcs.length; i++)
+	{
+		fadeimages[i]=[srcs[i], urls[i], ""] //image with link syntax
+		//fadeimages[0]=["photo3.jpg", "http://www.javascriptkit.com", "_new"]
+	}
+	return fadeimages;
+}
+</script>
+
+<div style="text-align: center">
+<center>
+<br />
+<script type="text/javascript">
+//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+new fadeshow(createImageArray("./photo0001.png;./photo0002.png;./photo0003.png;./photo0004.png;./photo0005.png;./photo0006.png;./photo0007.png;./photo0008.png;./photo0009.png;./photo0010.png;./photo0011.png;./photo0012.png;./photo0013.png;./photo0014.png;./photo0015.png;./photo0016.png;./photo0017.png;./photo0018.png;./photo0019.png;./photo0020.png;./photo0021.png;./photo0022.png;./photo0023.png;./photo0024.png;./photo0025.png;./photo0026.png;./photo0027.png;./photo0028.png;./photo0029.png;./photo0030.png;", "./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=118&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=119&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=117&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=116&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=120&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=142&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=151&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126;./main.php?mod=album&func=show_pic&album=175&site_id=126"), 150, 150, 0, 1500, 0);
+</script>
+</center>
+</div>
+</div>
+						<div class="sideAreaFooter">　</div>
+					</div>
+									<div class="sideArea">
+						<div class="sideAreaHeader announce_55">js</div>
+						<div class="sideAreaContent"><script type="text/javascript">
+		function announce_toggle(divid,id,dateDivId)
+		{
+			annart_div = document.getElementById(divid);
+			annart_date_div = document.getElementById(dateDivId);
+			if( !annart_div ) return;
+			if( annart_div.style.display == "block" ) {
+				annart_date_div.style.display = "block";
+				annart_div.style.display = "none";
+				document.getElementById('images'+id).src = "./modules/announce/tmpl/images/open.gif";
+			}
+			else
+			{
+				annart_date_div.style.display = "none";
+				annart_div.style.display = "block";
+				document.getElementById('images'+id).src = "./modules/announce/tmpl/images/close.gif";
+			}
+			//<img src="./modules/announce/tmpl/images/open.gif" style="border: 0px; width: 12px; height: 12px" id="images" alt="open">
+		}
+		function show_link(annart_id)
+		{
+			var show_link = 'main.php?mod=announce&func=show_article&site_id=126&annart_id='+annart_id;
+			window.location = show_link;
+		}
+</script>
+<div  class="itemContent" style="font-size:px;font-weight:;color:;background-color:;border-style:;border-width:px;a{color:}">
+<table style="width: 100%; text-align: ">
+		<tr>
+		<td >
+			<div class="itemInformation"  style="border: 0px;text-align:center">
+				目前無任何資料
+			</div>
+		</td>
+	</tr>
+	</table>
+</div>
+<!--
+<div style="text-align: left; line-height: 10pt;">
+	<a href="main.php?mod=announce&func=show_rss&anncat_id=55&site_id=126"><img src="./modules/announce/tmpl/images/rss_icon_16x16.gif" border="0" style="vertical-align: bottom;" alt="RSS"> 訂閱 RSS</a>
+</div>
+-->
+<div style="text-align: right">
+		<a href="main.php?mod=announce&func=show_rss&anncat_id=55&site_id=126"><img src="./modules/announce/tmpl/images/rss_icon_16x16.gif" border="0" style="vertical-align: bottom;" alt="RSS"> 訂閱 RSS</a>
+			&nbsp;
+	</div>
+
+
+<script type="text/javascript">//�P�_�O�_��javascript�Ӵ��Ϥ�
+	''
+</script></div>
+						<div class="sideAreaFooter">　</div>
+					</div>
+									</div>
+	</div>
+<div id="footer">
+	
+</div>
+<script type="text/javascript">
+		if( MENU_ITEMS && MENU_TPL )
+	{
+		new menu (MENU_ITEMS, MENU_TPL);
+	}
+	else alert('Can not load menu setting or items.');
+	//initVerticalMarquee();				// 垂直捲軸	
+	
+	
+	if(MENU_ITEM_cj)
+	{
+		var cj_menu = new COOLjsMenuPRO("cj_menu", MENU_ITEM_cj);
+		cj_menu.initTop();
+	}
+
+</script></body>
+</html>
